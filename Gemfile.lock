@@ -174,7 +174,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  capybara (~> 2.13.0)
+  capybara (>= 2.13.0)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   jquery-rails
