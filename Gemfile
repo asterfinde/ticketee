@@ -46,5 +46,10 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+group :test do
+  # Capybara is a browser simulator in Ruby that’s used for integration 
+  gem 'capybara', '>= 2.13.0'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
