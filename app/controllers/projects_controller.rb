@@ -24,7 +24,8 @@ class ProjectsController < ApplicationController
 			# redirect to will match the URL of the currently nonexistent "show action".
 			redirect_to @project
 		else
-			# nothing, yet
+			flash.now[:alert] = "Project has not been created."
+			render "new"
 		end
 	end
 
