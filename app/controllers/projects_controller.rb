@@ -56,6 +56,13 @@ class ProjectsController < ApplicationController
 		end
 	end
 
+	def destroy
+		@project = Project.find(params[:id])
+		@project.destroy
+		flash[:notice] = "Project has been deleted."
+		redirect_to projects_path
+	end
+
 	private
 		# You now call the require method on your params, and you require that the :project
 		# key exists. You also allow it to have :name and :description entries—any other fields
