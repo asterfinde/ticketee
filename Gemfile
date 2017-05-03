@@ -49,6 +49,7 @@ end
 group :test do
   # Capybara is a browser simulator in Ruby that’s used for integration 
   gem 'capybara', '>= 2.13.0'
+  gem 'factory_girl_rails', '~> 4.8.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
