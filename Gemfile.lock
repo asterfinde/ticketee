@@ -97,7 +97,7 @@ GEM
     puma (3.8.2)
     rack (2.0.1)
     rack-test (0.6.3)
-      rack (>= 1.0)
+      rack (>= 2.0.6)
     rails (5.0.2)
       actioncable (= 5.0.2)
       actionmailer (= 5.0.2)
